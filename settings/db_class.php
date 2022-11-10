@@ -17,7 +17,7 @@ class db_connection
 	//connect
 	/**
 	*Database connection
-	*@return bolean
+	*@return boolean
 	**/
 	function db_connect(){
 		
@@ -35,8 +35,8 @@ class db_connection
 	//execute a query
 	/**
 	*Query the Database
-	*@param takes a connection and sql query
-	*@return bolean
+	*@param $sqlQuery a connection and sql query
+	*@return boolean
 	**/
 	function db_query($sqlQuery){
 		
@@ -62,7 +62,7 @@ class db_connection
 	/**
 	*Query the Database
 	*@param takes a connection and sql query
-	*@return bolean
+	*@return boolean
 	**/
 	function db_query_escape_string($sqlQuery){
 		
