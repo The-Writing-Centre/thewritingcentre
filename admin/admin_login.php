@@ -41,7 +41,14 @@
 
     <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
         <div class="container d-flex align-items-center justify-content-between">
-            <h1>TWC Admin Login</h1>
+            <div class="logo">
+                <h1>TWC Admin Login</h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>yes</li>
+                </ul>
+            </nav>
         </div>
 
     </header>
