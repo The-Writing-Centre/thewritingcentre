@@ -42,7 +42,7 @@
             <div class="container">
                 <div class="row mt-5">
 
-                    <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+                    <div class="col-lg-8 mt-5 mt-lg-0">
                         <form action="../actions/admin_action.php" method="post" role="form" class="php-email-form">
                             <div class="row">
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
