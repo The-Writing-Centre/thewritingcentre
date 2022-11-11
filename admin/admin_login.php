@@ -39,11 +39,11 @@
 
 <body>
 
-    <footer id="footer">
+    <header id="footer">
         <div class="container">
         <h3>TWC Admin Login</h3>        
         </div>
-    </footer><!-- End Footer -->
+    </header>
 <!--
     <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
         <div class="container d-flex align-items-center justify-content-between">
