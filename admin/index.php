@@ -55,12 +55,7 @@
                 <a href="index.php" class="navbar-brand mx-4 mb-3">
                     <h1 class="text-primary"></i>TWC</h1>
                 </a>
-                <div class="d-flex align-items-center ms-4 mb-4">
-                   
-                    <div class="ms-3">
-                        <span>Admin</span>
-                    </div>
-                </div>
+                
                 <div class="navbar-nav w-100">
                     <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                 </div>
@@ -151,7 +146,7 @@
                 <div class="bg-light rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">The Writing Centre</a>, All Right Reserved. 
+                            &copy; <a href="#">The Writing Centre</a>, All Rights Reserved. 
                         </div>
                         <div class="col-12 col-sm-6 text-center text-sm-end">
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
