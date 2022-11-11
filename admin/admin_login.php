@@ -39,6 +39,7 @@
 
 <body>
 
+<main id="main">
 
     <!-- ======= Login Section ======= -->
     <section id="contact" class="contact">
