@@ -38,18 +38,28 @@
 </head>
 
 <body>
-    
-    <form action="../actions/admin_action.php" method="post" role="form" class="php-email-form">
-        <div class="row">
-             <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+    <main id="main">
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row mt-5">
+
+                    <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+                        <form action="../actions/admin_action.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="password" class="form-control" name="password" id="subject" placeholder="Password" required>
+                            </div>
+                            <div class="text-center"><button type="submit">Login</button></div>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="form-group mt-3">
-            <input type="password" class="form-control" name="password" id="subject" placeholder="Password" required>
-        </div>
-        <div class="text-center"><button type="submit">Login</button></div>
-    </form>
+        </section>
+    </main>
 
     
 
