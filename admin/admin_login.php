@@ -38,7 +38,6 @@
 </head>
 
 <body>
-    <main id="main">
         <section id="contact" class="contact">
             <div class="container">
                 <div class="row mt-5">
@@ -59,7 +58,6 @@
                 </div>
             </div>
         </section>
-    </main>
 
     
 
