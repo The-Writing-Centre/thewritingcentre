@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #444444;
-    --light: #F3F6F9;
+    --light: rgba(42, 44, 57, 0.9);
     --dark: #ef6603;
 }
 
