@@ -82,7 +82,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>The Writing Centre</h3>
+      <h5>The Writing Centre</h5>
       <p>Your one-stop platform for all your writing needs</p>
       
     </div>
