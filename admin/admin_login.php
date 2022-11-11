@@ -39,19 +39,21 @@
 
 <body>
 
+    <footer id="footer">
+        <div class="container">
+        <h3>TWC Admin Login</h3>        
+        </div>
+    </footer><!-- End Footer -->
+<!--
     <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
         <div class="container d-flex align-items-center justify-content-between">
             <div class="logo">
                 <h1>TWC Admin Login</h1>
             </div>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li>yes</li>
-                </ul>
-            </nav>
+            
         </div>
 
-    </header>
+    </header> -->
 
         <section id="contact" class="contact">
             <div class="container">
