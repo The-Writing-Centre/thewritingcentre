@@ -38,6 +38,14 @@
 </head>
 
 <body>
+
+    <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1>TWC Admin Login</h1>
+        </div>
+
+    </header>
+
         <section id="contact" class="contact">
             <div class="container">
                 <div class="row mt-5">
