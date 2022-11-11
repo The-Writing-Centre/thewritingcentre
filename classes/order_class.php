@@ -1,5 +1,4 @@
 <?php
-//test
 include ("../settings/db_class.php");
 
 class Order extends db_connection{
