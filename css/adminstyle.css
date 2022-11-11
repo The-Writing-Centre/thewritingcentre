@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
     --primary: #444444;
-    --light: #F3F6F9; 
-    --dark: #ef6603;
+    --light: rgba(42, 44, 57, 0.9);
+    --dark: #FFFFFF;
 }
 
 .back-to-top {
