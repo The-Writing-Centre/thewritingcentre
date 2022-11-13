@@ -4,10 +4,7 @@
 //database credentials
 require('db_cred.php');
 
-/**
- *@author David Sampah
- *@version 1.1
- */
+
 class db_connection
 {
 	//properties
@@ -22,7 +19,7 @@ class db_connection
 	function db_connect(){
 		
 		//connection
-		$this->db = mysqli_connect(SERVER,USERNAME,PASSWD,DATABASE);
+		$this->db = mysqli_connect(SERVER,USERNAME,PASSWORD,DATABASE);
 		
 		//test the connection
 		if (mysqli_connect_errno()) {

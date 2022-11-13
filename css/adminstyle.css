@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #009CFF;
-    --light: #F3F6F9;
-    --dark: #191C24;
+    --primary: #FFFFFF;
+    --light: rgba(42, 44, 57, 0.9);
+    --dark: #ef6603;
 }
 
 .back-to-top {
@@ -134,7 +134,7 @@
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
-    background: #FFFFFF;
+    background: #ef6603;
     border-color: var(--primary);
 }
 
