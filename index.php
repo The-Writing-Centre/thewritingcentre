@@ -70,7 +70,7 @@
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>The Writing Center</span></h2>
-          <p class="animate__animated fanimate__adeInUp">Where students and faculty members to request academic writing services such as CV writing, cover letter writing, thesis proofreading, editing of articles, et cetera, at a fee.</p>
+          <p class="animate__animated fanimate__adeInUp">Where students and faculty members to request academic writing services such as CV writing, cover letter writing, thesis proofreading, editing of articles, et cetera.</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -134,8 +134,8 @@
         <div class="row content" data-aos="fade-up">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            The Writing Centre (TWC)  is an online platform that allows students and faculty members to request academic writing services 
+            such as CV writing, cover letter writing, thesis proofreading, editing of articles, et cetera, at a fee.
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
