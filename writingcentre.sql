@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `cart`
 --
+--
+use heroku_32267b9cf097fc1;
+
 
 CREATE TABLE `cart` (
   `p_id` int(11) NOT NULL,
