@@ -581,9 +581,9 @@
           <p>Our Competing Prices</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="box" data-aos="zoom-in">
               <h3>Free</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
@@ -598,26 +598,29 @@
                 <a href="#" class="btn-buy">Buy Now</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
+              <h3>Standard</h3>
+              <h4><sup>₵</sup>19<span> / month</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>1 consultation</li>
+                <li>1 cover letter</li>
+                <li>1 CV/Resume appointment</li>
+                <li>2 Essays (700 words max. each)</li>
+                <!-- <li class="na">Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="https://paystack.com/pay/twc-standard-ann" class="btn-buy">Buy Now(Yearly)</a>
+              </div>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now(Monthly)</a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <!-- <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <h3>Developer</h3>
               <h4><sup>$</sup>29<span> / month</span></h4>
@@ -632,22 +635,25 @@
                 <a href="#" class="btn-buy">Buy Now</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
+              <h3>Advanced</h3>
+              <h4><sup>₵</sup>300<span> / month</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
+                <li>3 consultations with in house writers</li>
+                <li>3 cover letters</li>
+                <li>3 CV/Resume appointments</li>
+                <li>5 essays (1000 words max. each)</li>
                 <li>Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="https://paystack.com/pay/twc-standard-ann" class="btn-buy">Buy Now(Yearly)</a>
+              </div>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now(Monthly)</a>
               </div>
             </div>
           </div>
