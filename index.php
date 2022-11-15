@@ -376,10 +376,10 @@
         </div>
 
         <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
-          <!-- <li data-filter="*" class="filter-active">All</li> -->
+          <li data-filter="*" class="filter-active">All</li>
           <!-- <li data-filter=".filter-app">App</li> -->
           <!-- <li data-filter=".filter-card">Card</li> -->
-          <li data-filter=".filter-web">Web</li>
+          <!-- <li data-filter=".filter-web">Web</li> -->
         </ul>
 
         <div class="row portfolio-container" data-aos="fade-up">
