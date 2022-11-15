@@ -631,7 +631,7 @@
 
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span class="advanced">Advanced</span>
+              <span class="advanced">Best Value</span>
               <h3>Advanced</h3>
               <h4><sup>₵</sup>300<span> / month</span></h4>
               <ul>
