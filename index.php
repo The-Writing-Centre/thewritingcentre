@@ -138,7 +138,7 @@
             We offer: 
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> COnsultation Services</li>
+              <li><i class="ri-check-double-line"></i> Consultation Services</li>
               <li><i class="ri-check-double-line"></i> CV Writing and Cover Letter Writing </li>
               <li><i class="ri-check-double-line"></i> Capstone profreading and Feedback</li>
               <li><i class="ri-check-double-line"></i> Article and Personal Paper Editing</li>
@@ -160,7 +160,7 @@
     <section id="features" class="features">
       <div class="container">
 
-        <ul class="nav nav-tabs row d-flex">
+        <!-- <ul class="nav nav-tabs row d-flex">
           <li class="nav-item col-3" data-aos="zoom-in">
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
               <i class="ri-gps-line"></i>
@@ -190,8 +190,8 @@
         <div class="tab-content" data-aos="fade-up">
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0"> -->
+                <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -211,7 +211,7 @@
                 <img src="assets/img/features-1.png" alt="" class="img-fluid">
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="tab-pane" id="tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
