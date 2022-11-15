@@ -435,7 +435,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="assets/img/clients/ashesi.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>App 3</h4>
               <p>App</p>
