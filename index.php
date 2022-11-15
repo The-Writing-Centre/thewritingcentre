@@ -424,7 +424,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-img"><img src="assets/img/clients/ashesi.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Web 2</h4>
@@ -432,7 +432,7 @@
               <a href="assets/img/clients/ashesi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/clients/aa.jpg" class="img-fluid" alt=""></div>
