@@ -134,22 +134,22 @@
         <div class="row content" data-aos="fade-up">
           <div class="col-lg-6">
             <p>
-            The Writing Centre (TWC)  is an online platform that allows students and faculty members to request academic writing services 
-            such as CV writing, cover letter writing, thesis proofreading, editing of articles, et cetera, at a fee.
+            The Writing Centre (TWC)  is an online platform that allows students and faculty members to request academic writing services.
+            We offer: 
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> COnsultation Services</li>
+              <li><i class="ri-check-double-line"></i> CV Writing and Cover Letter Writing </li>
+              <li><i class="ri-check-double-line"></i> Capstone profreading and Feedback</li>
+              <li><i class="ri-check-double-line"></i> Article and Personal Paper Editing</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            It takes a business-to-consumer (B2C) model form, as we connect writers with freelance writing businesses to consumers, 
+            in this case, students, lecturers, faculty members, and the like.
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
           </div>
         </div>
 
