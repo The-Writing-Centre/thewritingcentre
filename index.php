@@ -44,8 +44,8 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.php">Selecao</a></h1>
-        
+        <h1><a href="index.php">TWC</a></h1>
+
       </div>
 
       <nav id="navbar" class="navbar">
@@ -54,6 +54,7 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto " href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -89,7 +90,7 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2>
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>The Writing Centre</span></h2>
           <p class="animate__animated fanimate__adeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
@@ -654,11 +655,10 @@
               <h3>Advanced</h3>
               <h4><sup>₵</sup>300<span> / month</span></h4>
               <ul>
-                <li>3 consultations with in house writers</li>
+                <li>3 consultations</li>
                 <li>3 cover letters</li>
                 <li>3 CV/Resume appointments</li>
                 <li>5 essays (1000 words max. each)</li>
-                <li>Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
                 <a href="https://paystack.com/pay/twc-standard-ann" class="btn-buy">Buy Now(Yearly)</a>
