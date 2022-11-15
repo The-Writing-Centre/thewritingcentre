@@ -372,7 +372,7 @@
 
         <div class="section-title" data-aos="zoom-out">
           <h2>Portfolio</h2>
-          <p>What we've done</p>
+          <p>Our Clients</p>
         </div>
 
         <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
