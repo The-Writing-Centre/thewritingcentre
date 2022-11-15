@@ -298,11 +298,13 @@
           <div class="col-lg-9 text-center text-lg-start">
             <h3>HELP CENTER</h3>
             <p> Kindly reach out to this number if you face any challenges </p>
+            <p> +233 26 764 6671 </p>
+            <p> +233 20 033 5936</p>
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
+          <!-- <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Call To Action</a>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Cta Section -->
