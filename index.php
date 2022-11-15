@@ -435,11 +435,11 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/clients/ash.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-img"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fkuulpeeps.com%2F2019%2F08%2F27%2Fall-you-need-to-know-about-ashesi-as-a-fresher%2Fhustle-hacks%2Fresources&psig=AOvVaw3YeVV_0cbxeWTWQCsF6kcE&ust=1668631971950000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOiioNCIsfsCFQAAAAAdAAAAABAO" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>App 3</h4>
               <p>App</p>
-              <a href="assets/img/clients/ash.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fkuulpeeps.com%2F2019%2F08%2F27%2Fall-you-need-to-know-about-ashesi-as-a-fresher%2Fhustle-hacks%2Fresources&psig=AOvVaw3YeVV_0cbxeWTWQCsF6kcE&ust=1668631971950000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOiioNCIsfsCFQAAAAAdAAAAABAO" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
