@@ -146,8 +146,7 @@ CREATE TABLE `staff` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 
-INSERT INTO `staff` (`staff_id`, `staff_name`, `staff_email`, `password`, `staff_role`) VALUES
-(1, 'TWC Admin', 'admin@gmail.com', 'admin1234', 1);
+
 -- --------------------------------------------------------
 
 --

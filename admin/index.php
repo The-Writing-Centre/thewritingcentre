@@ -82,7 +82,7 @@
                             <span class="d-none d-lg-inline-flex">Admin</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="admin_login.php" class="dropdown-item">Logout</a>
+                            <a href="admin_login.php" class="dropdown-item" style="color:white;">Logout</a>
                         </div>
                     </div>
                 </div>
