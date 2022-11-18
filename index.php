@@ -45,7 +45,7 @@
 
       <div class="logo">
         <h1><a href="index.php">The Writing Center</a></h1>
-        
+
       </div>
 
       <nav id="navbar" class="navbar">
@@ -54,9 +54,12 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto " href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="nav-link scrollto"><a href="#login"><span>Login</span> </i></a>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+          <li><a class="nav-link scrollto" href="admin/index.php">Audrey Admin Test</a></li>
+          <li><a class="nav-link scrollto" href="admin/admin_login.php">Audrey Admin Login Test</a></li>
+            <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
@@ -134,8 +137,8 @@
         <div class="row content" data-aos="fade-up">
           <div class="col-lg-6">
             <p>
-            The Writing Centre (TWC)  is an online platform that allows students and faculty members to request academic writing services.
-            We offer: 
+              The Writing Centre (TWC) is an online platform that allows students and faculty members to request academic writing services.
+              We offer:
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Consultation Services</li>
@@ -146,8 +149,8 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-            It takes a business-to-consumer (B2C) model form, as we connect writers with freelance writing businesses to consumers, 
-            in this case, students, lecturers, faculty members, and the like.
+              It takes a business-to-consumer (B2C) model form, as we connect writers with freelance writing businesses to consumers,
+              in this case, students, lecturers, faculty members, and the like.
             </p>
             <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
           </div>
@@ -191,7 +194,7 @@
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0"> -->
-                <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+        <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -212,7 +215,7 @@
               </div>
             </div>
           </div> -->
-          <!-- <div class="tab-pane" id="tab-2">
+        <!-- <div class="tab-pane" id="tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
@@ -573,9 +576,9 @@
           <p>Our Competing Prices</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="box" data-aos="zoom-in">
               <h3>Free</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
@@ -590,26 +593,29 @@
                 <a href="#" class="btn-buy">Buy Now</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
+              <h3>Standard</h3>
+              <h4><sup>₵</sup>19<span> / month</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>1 consultation</li>
+                <li>1 cover letter</li>
+                <li>1 CV/Resume appointment</li>
+                <li>2 Essays (700 words max. each)</li>
+                <!-- <li class="na">Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="https://paystack.com/pay/twc-standard-ann" class="btn-buy">Buy Now(Yearly)</a>
+              </div>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now(Monthly)</a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <!-- <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <h3>Developer</h3>
               <h4><sup>$</sup>29<span> / month</span></h4>
@@ -624,22 +630,24 @@
                 <a href="#" class="btn-buy">Buy Now</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
+              <span class="advanced">Best Value</span>
+              <h3>Advanced</h3>
+              <h4><sup>₵</sup>300<span> / month</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+                <li>3 consultations</li>
+                <li>3 cover letters</li>
+                <li>3 CV/Resume appointments</li>
+                <li>5 essays (1000 words max. each)</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="https://paystack.com/pay/twc-standard-ann" class="btn-buy">Buy Now(Yearly)</a>
+              </div>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now(Monthly)</a>
               </div>
             </div>
           </div>

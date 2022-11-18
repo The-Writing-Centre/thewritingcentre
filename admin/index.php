@@ -82,7 +82,7 @@
                             <span class="d-none d-lg-inline-flex">Admin</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="admin_login.php" class="dropdown-item">Logout</a>
+                            <a href="admin_login.php" class="dropdown-item" style="color:white;">Logout</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                                     <th scope="col">Service ID</th>
                                     <th scope="col">Service Requested</th>
                                     <th scope="col">Customer ID</th>
-                                    <th scope="col">Order Date</th>
+                                    <th scope="col">Due Date</th>
                                     <th scope="col">Invoice</th>
                                 </tr>
                             </thead>

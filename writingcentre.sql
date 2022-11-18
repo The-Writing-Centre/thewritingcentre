@@ -145,6 +145,8 @@ CREATE TABLE `staff` (
   `staff_role` int(1) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+
+
 -- --------------------------------------------------------
 
 --

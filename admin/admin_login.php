@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Selecao Bootstrap Template - Index</title>
+  <title>TWC Admin Login</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -69,7 +69,7 @@
                             <div class="form-group mt-3">
                                 <input type="password" class="form-control" name="password" id="subject" placeholder="Password" required>
                             </div>
-                            <div class="text-center"><button type="submit">Login</button></div>
+                            <div class="text-center"><button type="submit" name="submit">Login</button></div>
                         </form>
                     </div>
                 </div>
