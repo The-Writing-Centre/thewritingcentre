@@ -104,7 +104,7 @@
                                     <th scope="col">Service ID</th>
                                     <th scope="col">Service Requested</th>
                                     <th scope="col">Customer ID</th>
-                                    <th scope="col">Order Date</th>
+                                    <th scope="col">Due Date</th>
                                     <th scope="col">Invoice</th>
                                 </tr>
                             </thead>
