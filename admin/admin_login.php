@@ -69,7 +69,7 @@
                             <div class="form-group mt-3">
                                 <input type="password" class="form-control" name="password" id="subject" placeholder="Password" required>
                             </div>
-                            <div class="text-center"><button type="submit">Login</button></div>
+                            <div class="text-center"><button type="submit" name="submit">Login</button></div>
                         </form>
                     </div>
                 </div>
