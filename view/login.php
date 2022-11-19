@@ -25,8 +25,20 @@
           <input class="form__input" type="text" placeholder="Lastname" name="lastname">
           <input class="form__input" type="text" placeholder="School" name="school">
           <input class="form__input" type="email" placeholder="Email" name="email">
-          <input class="form__input" type="password" placeholder="Password">
-          <button class="form__button button submit" type="submit" name="sign_up">SIGN UP</button>
+          <input class="form__input" type="password" placeholder="Password"> 
+          <button class="take" style="    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.15px;
+    background-color: #4B70E2;
+    color: #f9f9f9;
+    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+    border: none;
+    outline: none;"
+          type="submit" name="sign_up">SIGN UP</button>
         </form>
       </div>
       <div class="container b-container" id="b-container">
@@ -48,8 +60,7 @@
     box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
     border: none;
     outline: none;"
-          
-          type="submit" name="sign_in">SIGN IN</button>
+    type="submit" name="sign_in">SIGN IN</button>
         </form>
       </div>
       <div class="switch" id="switch-cnt">
