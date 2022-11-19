@@ -20,8 +20,8 @@
       <div class="container a-container" id="a-container">
         <form class="form" id="a-form" method="POST" action="./signup_process.php">
           <h2 class="form_title title">Create Account</h2>
-          <input class="form__input" type="text" placeholder="Firstname" name="firstname" required>
-          <input class="form__input" type="text" placeholder="Lastname" name="lastname" required>
+          <input class="form__input" type="text" placeholder="Firstname" name="first_name" required>
+          <input class="form__input" type="text" placeholder="Lastname" name="last_name" required>
           <input class="form__input" type="text" placeholder="School" name="school" required>
           <input class="form__input" type="email" placeholder="Email" name="email" required>
           <input class="form__input" type="password" placeholder="Password" name="password" required>
@@ -46,7 +46,7 @@
           <h2 class="form_title title">Sign in to Website</h2>
           <span class="error_msg"></span>
           <input class="form__input" type="email" placeholder="Email" name="email" required>
-          <input class="form__input" type="password" placeholder="Password" required><a class="form__link">Forgot your password?</a>
+          <input class="form__input" type="password" placeholder="Password" name="password" required><a class="form__link">Forgot your password?</a>
           <button class="take" style="    width: 180px;
     height: 50px;
     border-radius: 25px;

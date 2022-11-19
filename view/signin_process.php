@@ -18,7 +18,7 @@ if(isset($_POST["sign_in"]))
     if(isset($result["email"])){
         password_verify($password, $result["password"]);
         $_SESSION["user_id"] = $result["user_id"];
-        $_SESSION["user_role"] = $result["user_role"];
+        $_SESSION["user_role"] = $result["role"];
 
         if($_SESSION["user_role"] == 1){
             header('location: ../admin');
