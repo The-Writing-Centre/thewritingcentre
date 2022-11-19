@@ -36,7 +36,20 @@
           <span class="error_msg"></span>
           <input class="form__input" type="email" placeholder="Email" name="email">
           <input class="form__input" type="password" placeholder="Password"><a class="form__link">Forgot your password?</a>
-          <button class="btn btn-primary" type="submit" name="sign_in">SIGN IN</button>
+          <button class="take" style="    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.15px;
+    background-color: #4B70E2;
+    color: #f9f9f9;
+    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+    border: none;
+    outline: none;"
+          
+          type="submit" name="sign_in">SIGN IN</button>
         </form>
       </div>
       <div class="switch" id="switch-cnt">
