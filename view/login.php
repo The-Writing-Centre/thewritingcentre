@@ -25,7 +25,7 @@
           <input class="form__input" type="text" placeholder="School" name="school" required>
           <input class="form__input" type="email" placeholder="Email" name="email" required>
           <input class="form__input" type="password" placeholder="Password" name="password" required>
-          <input class="form__input" type="password" placeholder="Confirm Password" name="Confirm_Password" required>  
+          <!-- <input class="form__input" type="password" placeholder="Confirm Password" name="Confirm_Password" required>   -->
           <button class="take" style="    width: 180px;
     height: 50px;
     border-radius: 25px;

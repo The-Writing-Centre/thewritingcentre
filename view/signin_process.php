@@ -28,7 +28,7 @@ if(isset($_POST["sign_in"]))
        }
 
     }
-    else echo header('location: ../portfolio');
+    else echo header('location: ../portfolio-details.php');
     
     
     
