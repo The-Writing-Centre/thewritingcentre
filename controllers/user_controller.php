@@ -1,21 +1,21 @@
 <?php
 require('../classes/user_class.php');
 //Add user controller
-function add_user_controller($firstname, $lastname, $school, $email, $password)
+function add_user_controller($first_name, $last_name, $school, $email, $password)
 {
     //create user instance
     $user_instance = new Customer();
     //call the method from the class
-    return $user_instance->add_user($firstname, $lastname, $school, $email, $password);
+    return $user_instance->add_user($first_name, $last_name, $school, $email, $password);
 }
 
 //Edit use controller
-function edit_user_controller($user_id, $firstname, $lastname, $school, $email, $password)
+function edit_user_controller($user_id, $first_name, $last_name, $school, $email, $password)
 {
     //create user instance
     $user_instance = new Customer();
     //call the method from the class
-    return $user_instance->edit_user($user_id, $firstname, $lastname, $school, $email, $password);
+    return $user_instance->edit_user($user_id, $first_name, $last_name, $school, $email, $password);
 
 }
 
