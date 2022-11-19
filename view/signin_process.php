@@ -21,10 +21,10 @@ if(isset($_POST["sign_in"]))
         $_SESSION["user_role"] = $result["role"];
 
         if($_SESSION["user_role"] == 2){
-            header('location: ../admin/admin_login.php');
+            header('location: ../portfolio-details.php');
         }
        if($_SESSION["user_role"] == 1){
-        header('location: success.php');
+        header('location: ../portfolio-details.php');
        }
 
     }
