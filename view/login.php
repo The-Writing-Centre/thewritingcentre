@@ -36,7 +36,7 @@
           <span class="error_msg"></span>
           <input class="form__input" type="email" placeholder="Email" name="email">
           <input class="form__input" type="password" placeholder="Password"><a class="form__link">Forgot your password?</a>
-          <button class="form__button button submit" type="submit" name="sign_in">SIGN IN</button>
+          <button class="form__button button submit-btn"  name="sign_in">SIGN IN</button>
         </form>
       </div>
       <div class="switch" id="switch-cnt">
