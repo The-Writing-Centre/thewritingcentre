@@ -24,7 +24,8 @@ if(isset($_POST["sign_in"]))
             header('location: ../admin');
         }
        if($_SESSION["user_role"] == 2){
-        header('location: success.php');
+        // header('location: success.php');
+        echo header('location: ../portfolio-details.php');
        }
 
     }
@@ -33,5 +34,3 @@ if(isset($_POST["sign_in"]))
     
     
 }
-
-?>

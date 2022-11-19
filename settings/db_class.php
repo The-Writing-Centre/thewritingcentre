@@ -74,10 +74,7 @@ class db_connection
 	}
 
 	//fetch a data
-	/**
-	*get select data
-	*@return a record
-	**/
+	
 	function db_fetch_one($sql){
 		
 		// if executing query returns false
