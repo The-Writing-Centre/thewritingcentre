@@ -4,8 +4,8 @@ require('../settings/db_class.php');
 class Customer extends db_connection{
 //methods
 //add customer
-function add_user($first_name, $last_name, $school, $email, $password){
-    return $this->db_query("insert into customers(first_name, last_name, school, email, password, role) values ('$first_name', '$last_name', '$school', '$email', '$password', 1)");
+function add_user($first_name, $last_name, $school, $email, $contact, $password){
+    return $this->db_query("insert into customers(first_name, last_name, school, email, contact, password, role) values ('$first_name', '$last_name', '$school', '$email', '$contact', '$password', 1)");
 }
 
 //check login details
@@ -15,8 +15,8 @@ function check_login_details($email){
 }
 
 //edit customer
-function edit_user($user_id,$first_name, $last_name, $school, $email, $password){
-    return $this->db_query("update customers set firs_tname = '$first_name', last_name = '$last_name', school = '$school', email='$email', password='$password' where user_id = '$user_id'");
+function edit_user($user_id,$first_name, $last_name, $school, $email, $contact, $password){
+    return $this->db_query("update customers set firs_tname = '$first_name', last_name = '$last_name', school = '$school', email='$email', contact='$contact', password='$password' where user_id = '$user_id'");
 }
 
 //delete customer

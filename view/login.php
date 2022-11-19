@@ -13,20 +13,35 @@
   <head>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="main.css"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="main.css"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet"> -->
   </head>
   <body>
     <div class="main">
       <div class="container a-container" id="a-container">
-        <form class="form" id="a-form" method="POST" action="./signup_process.php">
+        <form class="form" id="a-form">
           <h2 class="form_title title">Create Account</h2>
-          <input class="form__input" type="text" placeholder="Firstname" name="first_name" required>
-          <input class="form__input" type="text" placeholder="Lastname" name="last_name" required>
-          <input class="form__input" type="text" placeholder="School" name="school" required>
-          <input class="form__input" type="email" placeholder="Email" name="email" required>
-          <input class="form__input" type="password" placeholder="Password" name="password" required>
-          <!-- <input class="form__input" type="password" placeholder="Confirm Password" name="Confirm_Password" required>   -->
-          <button class="take" style="    width: 180px;
+
+          <input class="form__input" id = "first_name" type="text" placeholder="Firstname" name="first_name" > 
+          <div style="color: red;" id="err_first"></div>
+
+          <input class="form__input" id = "last_name"  type="text" placeholder="Lastname" name="last_name" >
+          <div style="color: red;" id="err_last"></div>
+
+          <input class="form__input" id = "school"     type="text" placeholder="School" name="school" >
+          <div style="color: red;" id="err_school"></div>
+
+          <input class="form__input" id = "email"      type="email" placeholder="Email" name="email" >
+          <div style="color: red;" id="err_email"></div>
+
+          <input class="form__input" id = "contact"    type="text" placeholder="Phone Number" name="contact" >
+          <div style="color: red;" id="err_contact"></div>
+
+          <input class="form__input" id = "password"   type="password" placeholder="Password" name="password" >
+          <div style="color: red;" id="err_pass"></div>
+
+          <input class="form__input" id = "confirm_password" type="password" placeholder="Confirm Password" name="confirm_password" >  
+          <div style="color: red;" id="err_con_pass"></div>
+          <button id="form-button" class="take" style="    width: 180px;
     height: 50px;
     border-radius: 25px;
     margin-top: 50px;
@@ -38,7 +53,7 @@
     box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
     border: none;
     outline: none;"
-          type="submit" name="sign_up">SIGN UP</button>
+          name="sign_up">SIGN UP</button>
         </form>
       </div>
       <div class="container b-container" id="b-container">
@@ -77,11 +92,12 @@
         </div>
       </div>
     </div>
-    <script src="main.js"></script>
   </body>
 </html>
 <!-- partial -->
-  <script  src="../js/script.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/jquery.js"></script>
+  <script  src="../js/signup_validation.js"></script>
 
 </body>
 </html>
