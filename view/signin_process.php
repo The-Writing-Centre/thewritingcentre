@@ -20,8 +20,8 @@ if(isset($_POST["sign_in"]))
         $_SESSION["user_id"] = $result["user_id"];
         $_SESSION["user_role"] = $result["role"];
 
-        if($_SESSION["user_role"] == 1){
-            header('location: ../admin');
+        if($_SESSION["user_role"] == 2){
+            header('location: ../admin/admin_login.php');
         }
        if($_SESSION["user_role"] == 2){
         // header('location: success.php');
