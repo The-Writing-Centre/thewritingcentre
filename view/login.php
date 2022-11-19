@@ -43,7 +43,8 @@
           <input class="form__input" id="password" type="password" placeholder="Password" name="password">
           <div style="color: red;" id="err_pass"></div>
 
-          <input class="form__input" id="confirm_password" type="password" placeholder="Confirm Password" name="confirm_password">
+          <input class="form__input" id="confirm_password" type="password" placeholder="Confirm Password"
+            name="confirm_password">
           <div style="color: red;" id="err_con_pass"></div>
           <button id="form-button" class="take" style="    width: 180px;
     height: 50px;
@@ -60,23 +61,24 @@
         </form>
       </div>
       <div class="container b-container" id="b-container">
-        <form class="form" id="b-form" method="get" action="signin_process.php">
+        <form class="form" id="b-form" method="POST" action="signin_process.php">
           <h2 class="form_title title">Sign in to Website</h2>
           <span class="error_msg"></span>
           <input class="form__input" type="email" placeholder="Email" name="email" required>
-          <input class="form__input" type="password" placeholder="Password" name="password" required><a class="form__link">Forgot your password?</a>
+          <input class="form__input" type="password" placeholder="Password" name="password" required><a
+            class="form__link">Forgot your password?</a>
           <button class="take" style="    width: 180px;
-    height: 50px;
-    border-radius: 25px;
-    margin-top: 50px;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1.15px;
-    background-color: #4B70E2;
-    color: #f9f9f9;
-    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
-    border: none;
-    outline: none;" type="submit" name="sign_in">SIGN IN</button>
+            height: 50px;
+            border-radius: 25px;
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1.15px;
+            background-color: #4B70E2;
+            color: #f9f9f9;
+            box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+            border: none;
+            outline: none;" type="submit" name="sign_in">SIGN IN</button>
         </form>
       </div>
       <div class="switch" id="switch-cnt">
