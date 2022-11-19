@@ -60,7 +60,7 @@
         </form>
       </div>
       <div class="container b-container" id="b-container">
-        <form class="form" id="b-form" method="POST" action="signin_process.php">
+        <form class="form" id="b-form" method="get" action="signin_process.php">
           <h2 class="form_title title">Sign in to Website</h2>
           <span class="error_msg"></span>
           <input class="form__input" type="email" placeholder="Email" name="email" required>
