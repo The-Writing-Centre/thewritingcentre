@@ -156,7 +156,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
+    <!-- <section id="cta" class="cta">
       <div class="container">
 
         <div class="row" data-aos="zoom-out">
@@ -170,7 +170,7 @@
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+    </section>End Cta Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
