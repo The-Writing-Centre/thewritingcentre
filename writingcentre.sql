@@ -28,8 +28,6 @@ SET time_zone = "+00:00";
 -- Table structure for table `cart`
 --
 --
-use heroku_32267b9cf097fc1;
-
 
 CREATE TABLE `cart` (
   `p_id` int(11) NOT NULL,
@@ -41,13 +39,6 @@ CREATE TABLE `cart` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `categories`
---
-
-CREATE TABLE `categories` (
-  `cat_id` int(11) NOT NULL,
-  `cat_name` varchar(100) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -124,16 +115,14 @@ CREATE TABLE `reviews` (
 CREATE TABLE `service` (
   `service_id` int(11) NOT NULL,
   `service_name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `service_cat` int(11) NOT NULL,
   `service_desc` text COLLATE utf8_unicode_ci NOT NULL,
   `service_price` double NOT NULL,
-  `due_date` date NOT NULL,
-  `service_image` varchar(100) DEFAULT NULL
+  `service_keywords` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
---
+-- 
 -- Table structure for table `staff`
 --
 
@@ -144,8 +133,6 @@ CREATE TABLE `staff` (
   `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `staff_role` int(1) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
-
 
 -- --------------------------------------------------------
 
@@ -159,17 +146,9 @@ CREATE TABLE `trackingorder` (
   `edited_file` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `categories`
---
-ALTER TABLE `categories`
-  ADD PRIMARY KEY (`cat_id`);
+--  
 
---
 -- Indexes for table `customers`
 --
 ALTER TABLE `customers`
@@ -184,25 +163,24 @@ ALTER TABLE `orders`
   ADD KEY `customer_id` (`customer_id`),
   ADD KEY `staff_id` (`staff_id`);
 
---
 -- Indexes for table `payment`
---
+
 ALTER TABLE `payment`
   ADD PRIMARY KEY (`payment_id`),
   ADD KEY `order_id` (`order_id`),
   ADD KEY `customer_id` (`customer_id`);
 
---
+
 -- Indexes for table `reviews`
---
+
 ALTER TABLE `reviews`
   ADD PRIMARY KEY (`review_id`),
   ADD KEY `customer_id` (`customer_id`),
   ADD KEY `service_id` (`service_id`);
 
---
+  
 -- Indexes for table `service`
---
+
 ALTER TABLE `service`
   ADD PRIMARY KEY (`service_id`),
   ADD KEY `service_cat` (`service_cat`);
@@ -222,14 +200,14 @@ ALTER TABLE `trackingorder`
   ADD KEY `order_id` (`order_id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- 
 --
 
 --
 -- AUTO_INCREMENT for table `categories`
 --
-ALTER TABLE `categories`
-  MODIFY `cat_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+-- ALTER TABLE `categories`
+--   MODIFY `cat_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `customers`
@@ -296,9 +274,6 @@ ALTER TABLE `reviews`
 --
 -- Constraints for table `service`
 --
-ALTER TABLE `service`
-  ADD CONSTRAINT `service_ibfk_1` FOREIGN KEY (`service_cat`) REFERENCES `categories` (`cat_id`);
-
 --
 -- Constraints for table `trackingorder`
 --
