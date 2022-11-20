@@ -264,7 +264,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/clients/aa.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>App 3</h4>
+              <h4>Ashesi University</h4>
               <p>App</p>
               <a href="assets/img/clients/aa.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
               <a href="https://www.ashesi.edu.gh/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -294,7 +294,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-img"><img src="assets/img/clients/lancaster.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Web 3</h4>
+              <h4>Lancaster university</h4>
               <!-- <p>Web</p> -->
               <a href="assets/img/clients/lancaster.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="https://study.lancaster.edu.gh/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -331,7 +331,7 @@
               </div>
             </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -342,9 +342,9 @@
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div>End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -356,8 +356,8 @@
                 <h4>Store Owner</h4>
               </div>
             </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
+ -->
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -368,9 +368,9 @@
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
               </div> -->
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
+            <!-- </div>End testimonial item -->
+ -->
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -381,14 +381,14 @@
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
               </div>
-            </div><!-- End testimonial item -->
-
+            </div>End testimonial item -->
+<!-- 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
-      </div>
-    </section><!-- End Testimonials Section -->
+      </div> -->
+    <!-- </section>End Testimonials Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
