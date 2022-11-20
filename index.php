@@ -57,8 +57,6 @@
           <li><a class="nav-link scrollto " href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="nav-link scrollto"><a href="./view/login.php"><span>Login</span> </i></a>
-          <li><a class="nav-link scrollto" href="admin/index.php">Audrey Admin Test</a></li>
-          <li><a class="nav-link scrollto" href="admin/admin_login.php">Audrey Admin Login Test</a></li>
             <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
