@@ -165,7 +165,7 @@
             <p> Check out our subscription plan and prices.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#pricing">Call To Action</a>
+            <a class="cta-btn align-middle" href="#pricing">Subscriptions</a>
           </div>
         </div>
 
@@ -307,7 +307,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
@@ -367,7 +367,7 @@
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
-              </div>
+              </div> -->
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
