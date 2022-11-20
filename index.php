@@ -52,11 +52,11 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto " href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="nav-link scrollto"><a href="./view/login.php"><span>Login</span> </i></a>
+          <li><a class="nav-link scrollto" href="./portfolio-details.php">SERVICES</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">CLIENTS</a></li>
+          <li><a class="nav-link scrollto " href="#pricing">PRICING</a></li>
+          <li><a class="nav-link scrollto" href="#team">TEAM</a></li>
+          <li class="nav-link scrollto"><a href="./view/login.php"><span>USER</span> </i></a>
             <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
