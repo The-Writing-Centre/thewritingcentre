@@ -52,7 +52,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
           <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
-          <li><a class="nav-link scrollto" href="./portfolio-details.php">SERVICES</a></li>
+          <li><a class="nav-link scrollto" href="#services">SERVICES</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">CLIENTS</a></li>
           <li><a class="nav-link scrollto " href="#pricing">PRICING</a></li>
           <li><a class="nav-link scrollto" href="#team">TEAM</a></li>
@@ -156,7 +156,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Cta Section ======= -->
-    <!-- <section id="cta" class="cta">
+    <section id="cta" class="cta">
       <div class="container">
 
         <div class="row" data-aos="zoom-out">
@@ -165,12 +165,12 @@
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#services">Call To Action</a>
           </div>
         </div>
 
       </div>
-    </section>End Cta Section -->
+    </section>End Cta Section
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
