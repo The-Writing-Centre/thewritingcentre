@@ -487,7 +487,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>ERNEST AMPOMAH AMPOFO</h4>
+                <h4>ERNEST AMPOMAH-BENEFO</h4>
                 <span>Chief Operations officer and Front-end Developer</span>
               </div>
             </div>
