@@ -208,7 +208,7 @@
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
               <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Graduate Application Essay</a></h4>
+              <h4 class="title"><a href="https://paystack.com/pay/grad-essay">Graduate Application Essay</a></h4>
               <p class="description">Request to Book</p>
             </div>
           </div>
@@ -216,7 +216,7 @@
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
               <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">Capstone Proofreading & feedback</a></h4>
+              <h4 class="title"><a href="https://paystack.com/pay/capstone">Capstone Proofreading & feedback</a></h4>
               <p class="description">Request to Book</p>
             </div>
           </div>
