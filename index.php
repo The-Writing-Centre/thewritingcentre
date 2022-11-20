@@ -356,7 +356,7 @@
                 <h4>Store Owner</h4>
               </div>
             </div><!-- End testimonial item -->
- -->
+ 
             <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -369,7 +369,7 @@
                 <h4>Freelancer</h4>
               </div> -->
             <!-- </div>End testimonial item -->
- -->
+ 
             <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
