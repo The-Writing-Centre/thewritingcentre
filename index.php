@@ -249,55 +249,15 @@
 
         <div class="row portfolio-container" data-aos="fade-up">
 
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/clients/ashesi.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/client/cape_logo.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>University of Cape Cost</h4>
-              <p>Web</p>
-              <a href="assets/img/clients/cape_logo.pngs" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img"><img src="assets/img/clients/cape.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
+              <h4>University of Cape Coast</h4>
+              <!-- <p>Card</p> -->
               <a href="assets/img/clients/cape.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://ucc.edu.gh/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/clients/ashesi.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/clients/ashesi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
 
           
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -313,20 +273,20 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img"><img src="assets/img/clients/knust.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
+              <h4>KNUST</h4>
+              <!-- <p>Card</p> -->
               <a href="assets/img/clients/knust.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://www.knust.edu.gh/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img"><img src="assets/img/clients/ug.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
+              <h4>University Of Ghana</h4>
+              <!-- <p>Card</p> -->
               <a href="assets/img/clients/ug.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://www.ug.edu.gh/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
