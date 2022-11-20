@@ -26,6 +26,8 @@ if (isset($_POST['submit'])) {
             echo 'error: wrong credentials';
         }
     }
+
+    else header("Location: ../admin/index.php");
     
 
 }

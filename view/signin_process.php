@@ -1,7 +1,7 @@
 <?php
 
 
-require('../Controllers/user_controller.php');
+require('../controllers/user_controller.php');
 
 //start session
 session_start();
