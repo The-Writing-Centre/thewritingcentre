@@ -170,7 +170,8 @@
         </div>
 
       </div>
-    </section>End Cta Section
+    </section>
+    <!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
