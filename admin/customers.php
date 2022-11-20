@@ -57,7 +57,7 @@
                 </a>
                 
                 <div class="navbar-nav w-100">
-                    <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="index.php"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                 </div>
                 <div class="navbar-nav w-100">
                     <a href="customers.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Customers</a>
