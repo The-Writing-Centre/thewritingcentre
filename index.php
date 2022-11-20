@@ -748,8 +748,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>AUDREY OBUOBISA-DARKO</h4>
+                <span>Founder & Project Manager </span>
               </div>
             </div>
           </div>
@@ -766,8 +766,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>ERNEST AMPOMAH AMPOFO</h4>
+                <span>Chief Operations officer and Front-end Developer</span>
               </div>
             </div>
           </div>
@@ -784,8 +784,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>NDAALE ANSAH</h4>
+                <span>Chief Financial Officer and Database Developer</span>
               </div>
             </div>
           </div>
@@ -802,8 +802,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>KOJO ARMAH</h4>
+                <span>Chief Technical Officer and Backend Developer</span>
               </div>
             </div>
           </div>
@@ -829,19 +829,20 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>1 University Avenue, Berekusu</p>
+                <p>PMB CT3, Cantonments, Accra</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>twc@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+233 54 702 1593</p>
               </div>
 
             </div>
@@ -885,8 +886,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Selecao</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3>TWC</h3>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -895,7 +895,7 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Selecao</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>TWC</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
