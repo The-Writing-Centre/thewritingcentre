@@ -186,14 +186,14 @@
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="zoom-in-left">
               <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">General Consulation</a></h4>
+              <h4 class="title"><a href="https://paystack.com/pay/gen-consult">General Consulation</a></h4>
               <p class="description">Request to Book</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
               <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Cover Letter Writing</a></h4>
+              <h4 class="title"><a href="https://paystack.com/pay/c-letter">Cover Letter Writing</a></h4>
               <p class="description">Request to Book</p>
             </div>
           </div>
@@ -201,7 +201,7 @@
           <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
               <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">CV/Resume Review</a></h4>
+              <h4 class="title"><a href="https://paystack.com/pay/cv_resume-review">CV/Resume Review</a></h4>
               <p class="description">Request to Book</p>
             </div>
           </div>
@@ -223,7 +223,7 @@
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
               <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Academic paper & Article Editing</a></h4>
+              <h4 class="title"><a href="https://paystack.com/pay/twc-academ1">Academic paper & Article Editing</a></h4>
               <p class="description">Request to Book</p>
             </div>
           </div>
