@@ -60,7 +60,7 @@
                     <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="customers.php"><i class="fa fa-tachometer-alt me-2"></i>Customers</a>
+                    <a href="customers.php" class="nav-item nav-link"><i class="fa fa-user"></i>Customers</a>
                 </div>
             </nav>
         </div>
