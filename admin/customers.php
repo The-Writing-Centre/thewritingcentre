@@ -1,8 +1,8 @@
 <?php
     include ("../settings/core.php");
-    require_once("../controllers/order_controller.php");
+    require_once("../controllers/user_controller.php");
 
-    $orders = select_all_orders_controller();
+    $users = select_one_use_controller($user_id);
 
 ?>
 <!DOCTYPE html>
@@ -57,10 +57,10 @@
                 </a>
                 
                 <div class="navbar-nav w-100">
-                    <a href="index.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="index.php" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="customers.php" class="nav-item nav-link"><i class="fa fa-user"></i>Customers</a>
+                    <a href="customers.php" class="nav-item nav-link active"><i class="fa fa-user"></i>Customers</a>
                 </div>
             </nav>
         </div>
@@ -97,33 +97,37 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Orders</h6>
+                        <h6 class="mb-0">Customers</h6>
                     </div>
                     <div class="table-responsive">
                         <table class="table text-start align-middle table-bordered table-hover mb-0">
                             <thead>
                                 <tr class="text-dark">
-                                    <th scope="col">Order ID</th>
-                                    <th scope="col">Service ID</th>
-                                    <th scope="col">Service Requested</th>
-                                    <th scope="col"><a href="customers.php">Customer ID</a></th>
-                                    <th scope="col">Due Date</th>
-                                    <th scope="col">Invoice</th>
+                                    <th scope="col">Customer ID</th>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">School</th>
+                                    <th scope="col">Programme</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Contact</th>
+
                                 </tr>
                             </thead>
 
                             <tbody>
                             <!--fetching and displaying orders-->
                             <?php
-                            if(!empty($orders)){
-                                foreach($orders as $order){
+                            if(!empty($users)){
+                                foreach($users as $user){
                                     ?><tr>
-                                        <td><?=$order['order_id']?></td>
-                                        <td><?=$order['service_id']?></td>
-                                        <td><?=$order['order_name']?></td>
-                                        <td><?=$order['customer_id']?></td>
-                                        <td><?=$order['order_date']?></td>
-                                        <td><?=$order['order_invoice']?></td>                                  
+                                        <td><?=$user['user_id']?></td>
+                                        <td><?=$user['first_name']?></td>
+                                        <td><?=$user['last_name']?></td>
+                                        <td><?=$user['school']?></td>
+                                        <td><?=$user['programme']?></td>
+                                        <td><?=$user['email']?></td> 
+                                        <td><?=$user['contact']?></td>                                  
+                                 
                                         
                                     </tr>
                                     <?php 
@@ -131,7 +135,7 @@
                             }
 
                             else{
-                                echo "<tr><td>No Orders</td></tr>";
+                                echo "<tr><td>No Customers</td></tr>";
                             }
                             ?>  
                             </tbody>
