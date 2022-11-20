@@ -266,7 +266,7 @@
               <h4>App 3</h4>
               <p>App</p>
               <a href="assets/img/clients/aa.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://www.ashesi.edu.gh/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -294,9 +294,9 @@
             <div class="portfolio-img"><img src="assets/img/clients/lancaster.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Web 3</h4>
-              <p>Web</p>
+              <!-- <p>Web</p> -->
               <a href="assets/img/clients/lancaster.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https://study.lancaster.edu.gh/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
