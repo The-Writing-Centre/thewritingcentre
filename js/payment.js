@@ -2,6 +2,8 @@ var paymentForm = document.getElementById("paymentForm");
 
 paymentForm.addEventListener("submit", payWithPaystack, false);
 
+
+
 function payWithPaystack() {
   var handler = PaystackPop.setup({
     key: "pk_test_ecd5ba45d5bf06da6e56cf2fee806d6835e24c85", // Replace with your public key

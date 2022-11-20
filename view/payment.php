@@ -42,7 +42,7 @@ include('../actions/payment_functions.php');
                     <h2 class="mt-5">Customer Payment</h2>
                     <p>Please fill this form to make payment to the application.</p>
                     <!-- Login Form -->
-                    <form action="../actions//payment.js" method="POST" id="paymentForm">
+                    <form action="../js/payment.js" method="POST" id="paymentForm">
 
                         <!-- Email field -->
                         <div class="form-group">
@@ -58,12 +58,6 @@ include('../actions/payment_functions.php');
                             <span class="invalid-feedback"></span>
                         </div>
 
-                        <div class="form-group">
-                            <label for="Option">Option</label>
-                            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-                            <small id="helpId" class="text-muted">Help text</small>
-                        </div>
-
                         <!-- <div class="form-group">
                             <label for="service">Service</label>
                             <!-- <select class="custom-select" name="service" id="service">
@@ -73,15 +67,18 @@ include('../actions/payment_functions.php');
                             <input type="checkbox" name="service" id="service" value="CV">
                         </div> -->
                         <div>
-                            <label for="agree">
-                                <input type="checkbox" name="checkbox" id="checkbox" value="">checkbox
-                            </label>
+                           <p>Choose your option</p>
+                            <input type="radio" name="service" id="service" value="3">General consultation
+                            <br>
+                            <input type="radio" name="service" id="service" value="4">Cover Letter Writing
+                            <br>
+                            <input type="radio" name="service" id="service" value="5">Graduate Essay Writing
                         </div>
 
                         <!-- Submit & cancel buttons -->
                         <input type="submit" class="btn btn-primary" value="Submit" name="login">
-                        <!-- Redirects to register page -->
-                        <a href="register.php" class="btn btn-secondary ml-2">Cancel</a>
+                        <!-- Redirects to home page -->
+                        <a href="../index.php" class="btn btn-secondary ml-2">Cancel</a>
                     </form>
                 </div>
             </div>
