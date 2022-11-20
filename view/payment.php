@@ -5,12 +5,14 @@ include('../actions/payment_functions.php');
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payments</title>
 </head>
+
 <body>
     <!-- <div class="container">
         <form>
@@ -40,7 +42,7 @@ include('../actions/payment_functions.php');
                     <h2 class="mt-5">Customer Payment</h2>
                     <p>Please fill this form to make payment to the application.</p>
                     <!-- Login Form -->
-                    <form action="payment2.js" method="POST" id="paymentForm">
+                    <form action="../actions//payment.js" method="POST" id="paymentForm">
 
                         <!-- Email field -->
                         <div class="form-group">
@@ -57,19 +59,23 @@ include('../actions/payment_functions.php');
                         </div>
 
                         <div class="form-group">
-                          <label for="Option">Option</label>
-                          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-                          <small id="helpId" class="text-muted">Help text</small>
+                            <label for="Option">Option</label>
+                            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                            <small id="helpId" class="text-muted">Help text</small>
                         </div>
 
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label for="service">Service</label>
-                            <select class="custom-select" name="service" id="service">
+                            <!-- <select class="custom-select" name="service" id="service">
                                 <!-- <option selected aria-placeholder="choose a service" value="">Choose a service</option> -->
-                                <?php
-                                get_service_option();
-                                ?>
-                            </select>
+                        <!-- </select>
+                            <br>
+                            <input type="checkbox" name="service" id="service" value="CV">
+                        </div> -->
+                        <div>
+                            <label for="agree">
+                                <input type="checkbox" name="checkbox" id="checkbox" value="">checkbox
+                            </label>
                         </div>
 
                         <!-- Submit & cancel buttons -->
@@ -82,4 +88,5 @@ include('../actions/payment_functions.php');
         </div>
     </div>
 </body>
+
 </html>
