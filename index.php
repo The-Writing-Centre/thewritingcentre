@@ -161,7 +161,7 @@
 
         <div class="row" data-aos="zoom-out">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Subsription Prices</h3>
+            <h3>Subscription Prices</h3>
             <p> Check out our subscription plan and prices.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
