@@ -416,7 +416,7 @@
                 <a href="https://paystack.com/pay/twc-standard-ann" class="btn-buy">Buy Now(Yearly)</a>
               </div>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now(Monthly)</a>
+                <a href="https://paystack.com/pay/twc-standard-monthly" class="btn-buy">Buy Now(Monthly)</a>
               </div>
             </div>
           </div>
