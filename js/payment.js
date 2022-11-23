@@ -2,6 +2,22 @@ var paymentForm = document.getElementById("paymentForm");
 
 paymentForm.addEventListener("submit", payWithPaystack, false);
 
+var amount;
+
+var service=document.getElementById('service').value;
+if (service==3) {
+    amount=100;
+}else{
+  if (service==4) {
+    amount=100;
+  }else{
+    if (service==5) {
+      amount= 200;
+    }
+    
+  }
+}
+
 
 
 function payWithPaystack() {
@@ -10,7 +26,7 @@ function payWithPaystack() {
 
     email: document.getElementById("email-address").value,
 
-    amount: document.getElementById("amount").value * 100, // the amount value is multiplied by 100 to convert to the lowest currency unit
+    amount: document.getElementById("number").value * amount, // the amount value is multiplied by 100 to convert to the lowest currency unit
 
     currency: "GHS", // Use GHS for Ghana Cedis or USD for US Dollars
 
