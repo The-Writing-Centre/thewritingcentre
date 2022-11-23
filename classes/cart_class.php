@@ -1,7 +1,7 @@
 <?php 
 
 //inheriting the methods from connection
-require('../settings/connection.php');
+require('../settings/db_class.php');
 
 
 class Cart extends db_connection {
