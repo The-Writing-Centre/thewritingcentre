@@ -11,7 +11,7 @@ function check_login(){
 	{
 		//redirect to login page
 		// $_SESSION['role'] = 0;
-    	header('Location: ../views/login.php');
+    	header('Location: ../view/login.php');
 	}
 	else{
 		return true;
