@@ -77,10 +77,10 @@ class Product extends db_connection {
     }
 
 //select all products and inner joins the product_brand on the brand_id in the brands table, same for categories.
-    function select_all_products ($id){
+    function select_all_products (){
         //returns true or false
         // return $this->db_fetch_all("select * from products inner join brands on product_brand = brand_id inner join categories on product_cat = cat_id");
-        return $this->db_fetch_all("select * from service where service_id = '$id'");
+        return $this->db_fetch_all("select * from service ");
 
     }
 
@@ -95,7 +95,3 @@ class Product extends db_connection {
    
     
 }
-
-
-
-?>
