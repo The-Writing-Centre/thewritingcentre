@@ -62,6 +62,11 @@
                 <div class="navbar-nav w-100">
                     <a href="customers.php" class="nav-item nav-link"><i class="fa fa-user"></i>Customers</a>
                 </div>
+
+                <div class="navbar-nav w-100">
+                    <a href="service.php" class="nav-item nav-link"><i class="fa fa-user"></i>Add Service</a>
+                </div>
+
             </nav>
         </div>
         <!-- Sidebar End -->

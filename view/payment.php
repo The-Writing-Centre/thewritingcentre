@@ -1,40 +1,28 @@
 <?php
-include('../settings/core.php');
-include('../actions/payment_functions.php');
-?>
 
-<!DOCTYPE html>
+require('../settings/core.php');
+require('../controllers/cart_controller.php');
+check_login();
+
+$customer_id= $_SESSION['user_id'];
+$email= $_SESSION['customer_email'];
+$amount = total_amount_controller($customer_id);
+
+?>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payments</title>
+    <title>payment test</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- <div class="container">
-        <form>
-            <div class="form-group row">
-                <label for="inputName" class="col-sm-1-12 col-form-label"></label>
-                <div class="col-sm-1-12">
-                    <input type="text" class="form-control" name="inputName" id="inputName" placeholder="">
-                </div>
-            </div>
-            <fieldset class="form-group row">
-                <legend class="col-form-legend col-sm-1-12">Group name</legend>
-                <div class="col-sm-1-12">
-                    
-                </div>
-            </fieldset>
-            <div class="form-group row">
-                <div class="offset-sm-2 col-sm-10">
-                    <button type="submit" class="btn btn-primary">Action</button>
-                </div>
-            </div>
-        </form>
-    </div> -->
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
@@ -43,6 +31,19 @@ include('../actions/payment_functions.php');
                     <p>Please fill this form to make payment to the application.</p>
                     <!-- Login Form -->
                     <form action="../js/payment.js" method="POST" id="paymentForm">
+
+                        <!-- Name Input Section -->
+                        <section>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name" name="fname" id="fname">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name" name="lname" id="lname">
+                                </div>
+                            </div>
+
+                        </section>
 
                         <!-- Email field -->
                         <div class="form-group">
@@ -66,24 +67,45 @@ include('../actions/payment_functions.php');
                             <br>
                             <input type="checkbox" name="service" id="service" value="CV">
                         </div> -->
-                        <div>
-                           <p>Choose your option</p>
-                            <input type="radio" name="service" id="service" value="3">General consultation
-                            <br>
-                            <input type="radio" name="service" id="service" value="4">Cover Letter Writing
-                            <br>
-                            <input type="radio" name="service" id="service" value="5">Graduate Essay Writing
+
+
+                        <div class="form-group">
+                            <label for="service">Service Select</label>
+                            <select class="custom-select" name="service" id="service">
+                                <option selected>Select one</option>
+                                <option value="3">Gen. consultation</option>
+                                <option value="4">Cover Letter Writing</option>
+                                <option value="5">Graduate Essay Writing</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="number">Number of Selection</label>
+                          <input type="number"
+                            class="form-control" name="number" id="number" aria-describedby="helpId" placeholder="Enter a number" min="1" step="1">
+                          <small id="helpId" class="form-text text-muted">Help text</small>
                         </div>
 
                         <!-- Submit & cancel buttons -->
-                        <input type="submit" class="btn btn-primary" value="Submit" name="login">
+                        <!-- <input type="submit" class="btn btn-primary" value="Submit" name="login"> -->
+                        <button type="button" class="btn btn-primary" onclick="payWithPaystack()">Pay</button>
+
                         <!-- Redirects to home page -->
                         <a href="../index.php" class="btn btn-secondary ml-2">Cancel</a>
+
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../js/payment.js"></script>
 </body>
+
 
 </html>
