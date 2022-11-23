@@ -4,7 +4,7 @@ require('../controllers/product_controller.php');
 check_login();
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
