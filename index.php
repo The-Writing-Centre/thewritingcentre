@@ -56,7 +56,10 @@
           <li><a class="nav-link scrollto " href="#portfolio">CLIENTS</a></li>
           <li><a class="nav-link scrollto " href="#pricing">PRICING</a></li>
           <li><a class="nav-link scrollto" href="#team">TEAM</a></li>
-          <li class="nav-link scrollto"><a href="./view/login.php"><span>USER</span> </i></a>
+          <li><a href="./view/cart.php"><span>CART</span></i></a></li>
+          <li class="nav-link scrollto">
+            <a href="./view/login.php"><span>LOGIN/SIGNUP</span></i></a>
+
             <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -152,7 +155,7 @@
     <section id="features" class="features">
       <div class="container">
 
-        
+
     </section><!-- End Features Section -->
 
     <!-- ======= Cta Section ======= -->
@@ -260,7 +263,7 @@
             </div>
           </div>
 
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/clients/aa.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
@@ -331,7 +334,7 @@
               </div>
             </div><!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -344,7 +347,7 @@
               </div>
             </div>End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -356,8 +359,8 @@
                 <h4>Store Owner</h4>
               </div>
             </div><!-- End testimonial item -->
- 
-            <!-- <div class="swiper-slide">
+
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -368,9 +371,9 @@
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
               </div> -->
-            <!-- </div>End testimonial item -->
- 
-            <!-- <div class="swiper-slide">
+    <!-- </div>End testimonial item -->
+
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -382,7 +385,7 @@
                 <h4>Entrepreneur</h4>
               </div>
             </div>End testimonial item -->
-<!-- 
+    <!-- 
           </div>
           <div class="swiper-pagination"></div>
         </div>
