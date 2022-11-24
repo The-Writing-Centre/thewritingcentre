@@ -65,9 +65,10 @@
           <h2 class="form_title title">Sign in to Website</h2>
           <span class="error_msg"></span>
           <input class="form__input" type="email" placeholder="Email" name="email" required>
-          <input class="form__input" type="password" placeholder="Password" name="password" required><a
-            class="form__link">Forgot your password?</a>
-          <a href = "../admin/admin_login.php">Admin? Log in here</a>
+          <input class="form__input" type="password" placeholder="Password" name="password" required>
+          <!-- <a
+            class="form__link">Forgot your password?</a> -->
+          <!-- <a href = "../admin/admin_login.php">Admin? Log in here</a> -->
           <button class="take" style="    width: 180px;
             height: 50px;
             border-radius: 25px;
