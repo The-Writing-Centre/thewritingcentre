@@ -104,7 +104,7 @@ $user_id = $_SESSION['user_id'];
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Customers</h6>
+                        <h6 class="mb-0">Services</h6>
                     </div>
                     <div class="table-responsive">
                         <table class="table text-start align-middle table-bordered table-hover mb-0">
@@ -129,22 +129,23 @@ $user_id = $_SESSION['user_id'];
                                 $services = select_all_products_controller();
                                 if (!empty($services)) {
                                     foreach ($services as $service) {
-                                ?><tr>
-                                            <td><?= $service['service_id'] ?></td>
-                                            <td><?= $service['service_name'] ?></td>
-                                            <td><?= $service['service_desc'] ?></td>
-                                            <td><?= $service['service_price'] ?></td>
-                                            <td><?= $service['service_image'] ?></td>
-                                            <td><a href='../admin/update_service.php?id={$x[' service_id']}'>Update</a></td>
-
-
-                                        </tr>
-                                <?php
+                                        echo "
+                                            <tr>
+                                                <td><?= {$service['service_id']} ?></td>
+                                                <td><?= {$service['service_name']} ?></td>
+                                                <td><?= {$service['service_desc']} ?></td>
+                                                <td><?= {$service['service_price']} ?></td>
+                                                <td><?= {$service['service_image']} ?></td>
+                                                <td><a href='../admin/update_service.php?service_id={$service['service_id']}'>Update</a></td>
+                                            <tr>";
                                     }
                                 } else {
+
                                     echo "<tr><td>No Services</td></tr>";
                                 }
                                 ?>
+
+
                             </tbody>
                         </table>
                     </div>
