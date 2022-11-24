@@ -64,7 +64,11 @@ $orders = select_all_orders_controller();
                 </div>
 
                 <div class="navbar-nav w-100">
-                    <a href="addService.php" class="nav-item nav-link"><i class="fa fa-user"></i>Add Service</a>
+                    <a href="view_service.php" class="nav-item nav-link"><i class="fa fa-user"></i>View Services</a>
+                </div>
+
+                <div class="navbar-nav w-100">
+                    <a href="addService.php" class="nav-item nav-link"><i class="fa fa-user"></i>Add Services</a>
                 </div>
 
             </nav>
@@ -114,6 +118,9 @@ $orders = select_all_orders_controller();
                                     <th scope="col"><a href="customers.php">Customer ID</a></th>
                                     <th scope="col">Due Date</th>
                                     <th scope="col">Invoice</th>
+                                    <th scope="col">Update</th>
+                                    <th scope="col">Delete</th>
+
                                 </tr>
                             </thead>
 
@@ -129,6 +136,7 @@ $orders = select_all_orders_controller();
                                             <td><?= $order['customer_id'] ?></td>
                                             <td><?= $order['order_date'] ?></td>
                                             <td><?= $order['order_invoice'] ?></td>
+                                            <td><a href='../admin/update_order.php?id={$x[' order_id']}'><i class="fa fa-pencil-square" aria-hidden="false">Update</i></a></td>
 
                                         </tr>
                                 <?php
