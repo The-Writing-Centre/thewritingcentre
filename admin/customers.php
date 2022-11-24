@@ -2,7 +2,7 @@
 include("../settings/core.php");
 require_once("../controllers/user_controller.php");
 $user_id = $_SESSION['user_id'];
-$users = select_one_use_controller($user_id);
+// $users = select_one_use_controller($user_id);
 
 ?>
 <!DOCTYPE html>
@@ -60,7 +60,14 @@ $users = select_one_use_controller($user_id);
                     <a href="index.php" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="customers.php" class="nav-item nav-link active"><i class="fa fa-user"></i>Customers</a>
+                    <a href="customers.php" class="nav-item nav-link active"><i class="fa fa-user"></i>View Customers</a>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="" class="nav-item nav-link"><i class="fa fa-user"></i>View Services</a>
+                </div>
+
+                <div class="navbar-nav w-100">
+                    <a href="addService.php" class="nav-item nav-link"><i class="fa fa-user"></i>Add Services</a>
                 </div>
             </nav>
         </div>
@@ -110,6 +117,7 @@ $users = select_one_use_controller($user_id);
                                     <th scope="col">Programme</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Contact</th>
+                                    <th scope="col">Update</th>
 
                                 </tr>
                             </thead>
@@ -117,6 +125,7 @@ $users = select_one_use_controller($user_id);
                             <tbody>
                                 <!--fetching and displaying orders-->
                                 <?php
+                                $users = select_all_use_controller();
                                 if (!empty($users)) {
                                     foreach ($users as $user) {
                                 ?><tr>
@@ -127,7 +136,7 @@ $users = select_one_use_controller($user_id);
                                             <td><?= $user['programme'] ?></td>
                                             <td><?= $user['email'] ?></td>
                                             <td><?= $user['contact'] ?></td>
-
+                                            <td><a href='../admin/update_customers.php?id={$x[' user_id']}'>Update</a></td>
 
                                         </tr>
                                 <?php
