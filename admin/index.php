@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="navbar-nav w-100">
-                    <a href="service.php" class="nav-item nav-link"><i class="fa fa-user"></i>Add Service</a>
+                    <a href="addService.php" class="nav-item nav-link"><i class="fa fa-user"></i>Add Service</a>
                 </div>
 
             </nav>

@@ -19,7 +19,7 @@ if(isset($_POST['addService'])){
     if ($result){
         header("Location: ../admin/products.php");
     }else{
-        echo ("<script>alert('Could not add the product, try again.'); window.location.href = '../admin/addproduct.php';</script>");
+        echo ("<script>alert('Could not add the product, try again.'); window.location.href = '../admin/addService.php';</script>");
     }
 
 }
