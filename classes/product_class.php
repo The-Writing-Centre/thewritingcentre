@@ -58,10 +58,10 @@ class Product extends db_connection {
 // products
 
 // add product
-    function add_product(/*$product_cat,*/ /*$product_brand,*/ $product_title, $product_desc, $product_price,  /*$product_image*/$product_keywords){
-        //return $this->db_query("INSERT into products(product_cat, product_brand, product_title, product_price, product_desc, product_image, product_keywords) values ('$product_cat','$product_brand','$product_title','$product_price','$product_desc','$product_image','$product_keywords')");
-        // return $this->db_query("INSERT into products(product_title, product_price, product_desc, product_image, product_keywords) values ('$product_title','$product_price','$product_desc','$product_image','$product_keywords')");
-        return $this->db_query("INSERT into service (service_name, service_desc, service_price, service_keywords) values ('$product_title','$product_desc','$product_price','$product_keywords')");
+    function add_product(/*$product_cat,*/ /*$product_brand,*/ $product_title, $product_desc, $product_price,$product_image){
+        //return $this->db_query("INSERT into products(product_cat, product_brand, product_title, product_price, product_desc, product_image, product_keywords) values ('$product_cat','$product_brand','$product_title','$product_price','$product_desc','$product_image',')");
+        // return $this->db_query("INSERT into products(product_title, product_price, product_desc, product_image, product_keywords) values ('$product_title','$product_price','$product_desc','$product_image',')");
+        return $this->db_query("INSERT into service (service_name, service_desc, service_price,service_image) values ('$product_title','$product_desc','$product_price','$product_image')");
 
     }
 

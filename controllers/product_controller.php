@@ -67,11 +67,12 @@ require('../Classes/product_class.php');
 // }
 
 //products
-function add_product_controller($product_title, $product_desc, $product_price, /*$product_image,*/ $product_keywords){
+function add_product_controller($product_title, $product_desc, $product_price, $product_image,)
+{
     // create an instance of the product class
     $product_instance = new Product();
     // call the method form the product class
-    return $product_instance->add_product( $product_title, $product_desc, $product_price,/*$product_image,*/ $product_keywords);
+    return $product_instance->add_product($product_title, $product_desc, $product_price, $product_image);
 }
 
 
@@ -82,25 +83,28 @@ function add_product_controller($product_title, $product_desc, $product_price, /
 //     return $product_instance->add_product($product_cat, $product_brand, $product_title, $product_price, $product_desc, $product_image, $product_keywords);
 // }
 
-function select_all_products_controller(){
+function select_all_products_controller()
+{
     // create an instance of the product class
     $product_instance = new Product();
     //call the method from the class
     return $product_instance->select_all_products();
 }
 
-function select_one_product_controller($id){
+function select_one_product_controller($id)
+{
     //create an instance of the product class
     $product_instance = new Product();
     //call the method from the class
     return $product_instance->select_one_product($id);
 }
 
-function update_one_product_controller($id, $product_title, $product_desc, $product_price, /*$product_image*,*/ $product_keywords){
+function update_one_product_controller($id, $product_title, $product_desc, $product_price, /*$product_image*,*/ $product_keywords)
+{
     //create an instance of the producr class
     $product_instance = new Product();
     //call the method from the class
-    return $product_instance-> update_one_product($id, $product_title,  $product_desc, $product_price, /*$product_image*/ $product_keywords);
+    return $product_instance->update_one_product($id, $product_title,  $product_desc, $product_price, /*$product_image*/ $product_keywords);
 }
 
 // var_dump(select_one_product_controller('13'));
