@@ -63,11 +63,11 @@ $user_id = $_SESSION['user_id'];
                     <a href="customers.php" class="nav-item nav-link active"><i class="fa fa-user"></i>View Customers</a>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="" class="nav-item nav-link"><i class="fa fa-user"></i>View Services</a>
+                    <a href="view_service.php" class="nav-item nav-link"><i class="fa fa-user"></i>View Services</a>
                 </div>
 
                 <div class="navbar-nav w-100">
-                    <a href="addService.php" class="nav-item nav-link"><i class="fa fa-user"></i>Add Services</a>
+                    <a href="view_service.php" class="nav-item nav-link"><i class="fa fa-user"></i>View Services</a>
                 </div>
             </nav>
         </div>
